@@ -1,0 +1,114 @@
+:root {
+    /* Light theme (default) */
+    --bg-color-light: #fff;
+    --header-color-light: #292922;
+    --color-light: #424242;
+    --link-color-light: #536390;
+    /* Dark theme */
+    --bg-color-dark: #161625;
+    --header-color-dark: #818cab;
+    --color-dark: #e1e1ff;
+    --link-color-dark: #818cab;
+}
+/* Inter font, fall back to local sans-serif font if the browser doesn't support woff2 */
+@font-face {
+    font-family: "Inter";
+    src: local("sans-serif");
+    src: local("Helveteca");
+    src: local("Arial");
+    src: url("/assets/fonts/Inter-Regular.woff2") format('woff2');
+}
+@font-face {
+    font-family: "Inter";
+    src: local("sans-serif");
+    src: local("Helveteca");
+    src: local("Arial");
+    src: url("/assets/fonts/Inter-Bold.woff2") format('woff2');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Inter";
+    src: local("sans-serif");
+    src: local("Helveteca");
+    src: local("Arial");
+    src: url("/assets/fonts/Inter-Italic.woff2") format('woff2');
+    font-style: italic;
+}
+@font-face {
+    font-family: "Inter";
+    src: local("sans-serif");
+    src: local("Helveteca");
+    src: local("Arial");
+    src: url("/assets/fonts/Inter-BlackItalic.woff2") format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+body {
+    background-color: var(--bg-color-light);
+    color: var(--color-light);
+    font-size: 100%;
+    font-family: Inter;
+}
+#container {
+    width: 40em;
+    display: block;
+    margin: auto;
+}
+#bottom_padding {
+    height: 5em;
+}
+h1 {
+    color: var(--header-color-light);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+}
+img {
+    display: block;
+    margin: auto;
+}
+p {
+    font-size: 1.25rem;
+    font-style: italic;
+}
+a {
+    color: var(--link-color-light);
+}
+footer {
+    background-color: var(--bg-color-light);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0.25em 0.5em;
+}
+footer p {
+    font-size: 0.7rem;
+    font-style: normal;
+}
+footer a {
+    font-size: 0.7rem;
+}
+@media only screen and (max-width: 40em) {
+    #container {
+        width: 96%;
+    }
+    img {
+        width: 100%;
+    }
+}
+@media (prefers-color-scheme: dark) {
+	body {
+        background-color: var(--bg-color-dark);
+        color: var(--color-dark)
+    }
+    h1 {
+        color: var(--header-color-dark);
+    }
+    a {
+        color: var(--link-color-dark);
+    }
+    footer {
+        background-color: var(--bg-color-dark);
+    }
+}
