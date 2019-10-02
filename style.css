@@ -67,6 +67,7 @@ h1 {
 img {
     display: block;
     margin: auto;
+    padding-bottom: 5em;
 }
 p {
     font-size: 1.25rem;
