@@ -73,22 +73,6 @@ p {
 a {
     color: var(--link-color-light);
 }
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;
-}
-li {
-    font-size: 1.25rem;
-    padding: 1.25em 0 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-hr {
-    border-top: 0.1em solid var(--header-color-light);
-    border-bottom: none;
-}
 footer {
     background-color: var(--bg-color-light);
     position: fixed;
@@ -121,9 +105,6 @@ footer a {
     }
     a {
         color: var(--link-color-dark);
-    }
-    hr {
-        border-top: 0.1em solid var(--header-color-dark);
     }
     footer {
         background-color: var(--bg-color-dark);
