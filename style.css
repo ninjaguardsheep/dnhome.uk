@@ -69,12 +69,15 @@ img {
     margin: auto;
     padding-bottom: 5em;
 }
-p {
+p, li {
     font-size: 1.25rem;
     font-style: italic;
 }
 a {
     color: var(--link-color-light);
+}
+ul {
+    list-style-type: none;
 }
 footer {
     background-color: var(--bg-color-light);
