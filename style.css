@@ -1,13 +1,13 @@
 :root {
     /* Light theme (default) */
     --bg-color-light: #fff;
-    --header-color-light: #292922;
-    --color-light: #424242;
+    --header-color-light: #222;
+    --color-light: #222;
     --link-color-light: #536390;
     /* Dark theme */
-    --bg-color-dark: #161625;
-    --header-color-dark: #818cab;
-    --color-dark: #e1e1ff;
+    --bg-color-dark: #292a2d;
+    --header-color-dark: #a9a9b3;
+    --color-dark: #a9a9b3;
     --link-color-dark: #818cab;
 }
 /* Inter font, fall back to local sans-serif font if the browser doesn't support woff2 */
