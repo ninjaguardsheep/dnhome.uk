@@ -57,7 +57,6 @@ body {
 }
 h1 {
     color: var(--header-color-light);
-    font-family: Inter;
     font-size: 3rem;
     font-weight: bold;
     font-style: italic;
@@ -72,6 +71,10 @@ p {
 }
 a {
     color: var(--link-color-light);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 footer {
     background-color: var(--bg-color-light);
