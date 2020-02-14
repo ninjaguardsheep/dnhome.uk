@@ -16,14 +16,14 @@
     src: local("sans-serif");
     src: local("Helveteca");
     src: local("Arial");
-    src: url("/fonts/Inter-Regular.woff2") format('woff2');
+    src: url("/assets/fonts/Inter-Regular.woff2") format('woff2');
 }
 @font-face {
     font-family: "Inter";
     src: local("sans-serif");
     src: local("Helveteca");
     src: local("Arial");
-    src: url("/fonts/Inter-Bold.woff2") format('woff2');
+    src: url("/assets/fonts/Inter-Bold.woff2") format('woff2');
     font-weight: bold;
 }
 @font-face {
@@ -31,7 +31,7 @@
     src: local("sans-serif");
     src: local("Helveteca");
     src: local("Arial");
-    src: url("/fonts/Inter-Italic.woff2") format('woff2');
+    src: url("/assets/fonts/Inter-Italic.woff2") format('woff2');
     font-style: italic;
 }
 @font-face {
@@ -39,7 +39,7 @@
     src: local("sans-serif");
     src: local("Helveteca");
     src: local("Arial");
-    src: url("/fonts/Inter-BlackItalic.woff2") format('woff2');
+    src: url("/assets/fonts/Inter-BlackItalic.woff2") format('woff2');
     font-weight: bold;
     font-style: italic;
 }
@@ -55,7 +55,7 @@ body {
     margin: auto;
     padding: 0 0 5em;
 }
-h1 {
+h1 a {
     color: var(--header-color-light);
     font-size: 3rem;
     font-weight: bold;
