@@ -1,14 +1,19 @@
 :root {
     /* Light theme (default) */
-    --bg-color-light: #fff;
-    --header-color-light: #222;
-    --color-light: #222;
-    --link-color-light: #536390;
-    /* Dark theme */
-    --bg-color-dark: #292a2d;
-    --header-color-dark: #a9a9b3;
-    --color-dark: #a9a9b3;
-    --link-color-dark: #818cab;
+    --bg-color: #fff;
+    --header-color: #222;
+    --color: #222;
+    --link-color: #536390;
+
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Dark theme */
+        --bg-color: #292a2d;
+        --header-color: #a9a9b3;
+        --color: #a9a9b3;
+        --link-color: #818cab;
+    }
 }
 /* Inter font, fall back to local sans-serif font if the browser doesn't support woff2 */
 @font-face {
@@ -44,8 +49,8 @@
     font-style: italic;
 }
 body {
-    background-color: var(--bg-color-light);
-    color: var(--color-light);
+    background-color: var(--bg-color);
+    color: var(--color);
     font-size: 100%;
     font-family: Inter;
 }
@@ -56,7 +61,7 @@ body {
     padding: 0 0 5em;
 }
 h1 a {
-    color: var(--header-color-light);
+    color: var(--header-color);
     font-size: 3rem;
     font-weight: bold;
     font-style: italic;
@@ -70,14 +75,14 @@ p {
     font-style: italic;
 }
 a {
-    color: var(--link-color-light);
+    color: var(--link-color);
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
 footer {
-    background-color: var(--bg-color-light);
+    background-color: var(--bg-color);
     position: fixed;
     bottom: 0;
     left: 0;
@@ -96,20 +101,5 @@ footer a {
     }
     img {
         width: 100%;
-    }
-}
-@media (prefers-color-scheme: dark) {
-	body {
-        background-color: var(--bg-color-dark);
-        color: var(--color-dark)
-    }
-    h1 a {
-        color: var(--header-color-dark);
-    }
-    a {
-        color: var(--link-color-dark);
-    }
-    footer {
-        background-color: var(--bg-color-dark);
     }
 }
