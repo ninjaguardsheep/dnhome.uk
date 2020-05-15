@@ -4,8 +4,8 @@
     --header-color: #222;
     --color: #222;
     --link-color: #536390;
-
 }
+/* Use dark theme if browser requests it */
 @media (prefers-color-scheme: dark) {
     :root {
         /* Dark theme */
