@@ -15,44 +15,11 @@
         --link-color: #818cab;
     }
 }
-/* Inter font, fall back to local sans-serif font if the browser doesn't support woff2 */
-@font-face {
-    font-family: "Inter";
-    src: local("sans-serif");
-    src: local("Helveteca");
-    src: local("Arial");
-    src: url("/assets/fonts/Inter-Regular.woff2") format('woff2');
-}
-@font-face {
-    font-family: "Inter";
-    src: local("sans-serif");
-    src: local("Helveteca");
-    src: local("Arial");
-    src: url("/assets/fonts/Inter-Bold.woff2") format('woff2');
-    font-weight: bold;
-}
-@font-face {
-    font-family: "Inter";
-    src: local("sans-serif");
-    src: local("Helveteca");
-    src: local("Arial");
-    src: url("/assets/fonts/Inter-Italic.woff2") format('woff2');
-    font-style: italic;
-}
-@font-face {
-    font-family: "Inter";
-    src: local("sans-serif");
-    src: local("Helveteca");
-    src: local("Arial");
-    src: url("/assets/fonts/Inter-BlackItalic.woff2") format('woff2');
-    font-weight: bold;
-    font-style: italic;
-}
 body {
     background-color: var(--bg-color);
     color: var(--color);
     font-size: 100%;
-    font-family: Inter;
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #container {
     width: 40em;
@@ -60,7 +27,7 @@ body {
     margin: auto;
     padding: 0 0 5em;
 }
-h1 a {
+h1 {
     color: var(--header-color);
     font-size: 3rem;
     font-weight: bold;
@@ -69,6 +36,7 @@ h1 a {
 img {
     display: block;
     margin: auto;
+    width: 100%;
 }
 p {
     font-size: 1.25rem;
@@ -98,8 +66,5 @@ footer a {
 @media only screen and (max-width: 40em) {
     #container {
         width: 96%;
-    }
-    img {
-        width: 100%;
     }
 }
