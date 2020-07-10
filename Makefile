@@ -1,6 +1,6 @@
 SRCDIR := src
 BUILDDIR := _site
-WEBSVR := srv-03
+WEBSVR := srv-01
 WEBDEST := /var/www/www.dnhome.uk/
 
 .PHONY: build
