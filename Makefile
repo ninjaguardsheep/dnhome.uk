@@ -7,7 +7,7 @@ WEBDEST := /var/www/www.dnhome.uk/
 build: clean
 	mkdir ${BUILDDIR}
 	cp -r ${SRCDIR}/* ${BUILDDIR}/
-	rm ${BUILDDIR}/assets/img/_fav_src.png
+	rm ${BUILDDIR}/assets/img/_*
 	minify --verbose --output ${BUILDDIR}/ --recursive ${BUILDDIR}/
 
 .PHONY: upload
