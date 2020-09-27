@@ -1,7 +1,7 @@
 :root {
     --bg-color: #292a2d;
-    --header-color: #D2D2D2;
-    --color: #D2D2D2;
+    --header-color: #fff;
+    --color: #fff;
     --link-color: #C1CCEA;
     --accent-color: #ffa000;
 }
