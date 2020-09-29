@@ -13,7 +13,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="_meeja-src.svg">
+   sodipodi:docname="_meeja-src.svg"
+   inkscape:export-filename="/home/dave/Desktop/dnhome.uk/src/assets/img/meeja.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs2">
     <rect
@@ -41,7 +44,7 @@
      inkscape:pagecheckerboard="true"
      inkscape:snap-page="true"
      inkscape:window-width="1920"
-     inkscape:window-height="991"
+     inkscape:window-height="1015"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
@@ -53,7 +56,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -62,7 +65,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#292a2d;fill-opacity:1;stroke-width:0.536313"
+       style="fill:#22222d;fill-opacity:1;stroke-width:0.536313"
        id="rect10"
        width="317.5"
        height="166.15834"
@@ -71,10 +74,10 @@
     <text
        xml:space="preserve"
        id="text835"
-       style="font-style:normal;font-weight:normal;font-size:50.8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect837);fill:#000000;fill-opacity:1;stroke:none;"
+       style="font-style:normal;font-weight:normal;font-size:50.8px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect837);fill:#ccffff;fill-opacity:1;stroke:none;"
        transform="translate(-3.7311304,-18.437658)"><tspan
          x="96.898438"
          y="110.76242"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Bold Italic';fill:#ffa000;fill-opacity:1">dnhome.uk</tspan></tspan></text>
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Bold Italic';fill:#ccffff;fill-opacity:1">dnhome.uk</tspan></tspan></text>
   </g>
 </svg>

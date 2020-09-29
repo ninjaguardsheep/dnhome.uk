@@ -1,65 +1,99 @@
 :root {
-    --bg-color: #292a2d;
-    --header-color: #fff;
-    --color: #fff;
-    --link-color: #C1CCEA;
-    --accent-color: #ffa000;
+    /* Light theme (default) */
+    --bg-color: #ccffff;
+    --header-color: #222;
+    --color: #222;
+    --selection-color: #222;
+    --selection-bg-color: #ffff99;
+}
+/* Use dark theme if browser requests it */
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Dark theme */
+        --bg-color: #222;
+        --header-color: #ccffff;
+        --color: #ccffff;
+        --selection-color: #222;
+        --selection-bg-color: #ff9999;
+    }
+}
+html,body {
+    height: 100%;
 }
 body {
     background-color: var(--bg-color);
-    font-size: 1rem;
-    font-family: sans-serif;
     color: var(--color);
-    margin: 0.5em auto;
-}
-h1,h2,h3 {
-    font-weight: bold;
-    font-style: italic;
-    margin 2em 0;
-}
-h1 {
-    color: var(--accent-color);
-    font-size: 2rem;
-}
-h2 {
-    color: var(--header-color);
-    font-size: 1.5rem;
-}
-h3 {
-    color: var(--header-color);
-    font-size: 1.2rem;
-}
-img {
-    width: 100%;
-    display: block;
-}
-a {
-    color: var(--link-color);
-}
-p {
-    color: var(--color);
-    line-height: 1.4rem;
-}
-hr {
-    border-top: 1px solid var(--color);
-    border-bottom: none;
-    width: 100%;
-    margin: 2em auto;
-}
-footer {
-    background-color: var(--bg-color);
-    position: fixed;
-    bottom: 0;
-    padding: 0.25em 0.5em;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    font-family: sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
 }
 #container {
     width: 40em;
     display: block;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0;
+    flex: 1 0 auto;
 }
-/* Scale elements on smaller screens to prevent side-scrolling */
-@media only screen and (max-width: 42em) {
+h1,h2,h3,h4 {
+    font-weight: bold;
+    font-style: italic;
+    color: var(--header-color);
+    margin: 0;
+    padding: 1em 0;
+}
+h1 {
+    font-size: 2.6rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+h4 {
+    font-size: 1.4rem;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+a {
+    color: var(--color);
+    text-decoration: none;
+    border-bottom: 2px dotted var(--color);
+}
+a:hover {
+    background-color: var(--selection-bg-color);
+    color: var(--selection-color);
+    border-bottom: 2px dotted var(--selection-color);
+}
+p {
+}
+li {
+    padding: 0.25em;
+}
+hr {
+    border: none;
+    border-top: 2px dotted var(--color);
+    margin: 2em 0 1em 0;
+}
+footer {
+    background-color: var(--bg-color);
+    bottom: 0;
+    left: 0;
+    padding: 1em 1em;
+    flex: 0 0 auto;
+    font-size: 0.7rem;
+}
+::selection {
+    background: var(--selection-bg-color);
+    color: var(--selection-color);
+}
+@media only screen and (max-width: 40em) {
     #container {
         width: 96%;
     }

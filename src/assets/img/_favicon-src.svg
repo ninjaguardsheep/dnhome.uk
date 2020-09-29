@@ -31,7 +31,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.76"
-     inkscape:cx="157.23684"
+     inkscape:cx="-58.552634"
      inkscape:cy="361.43541"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -41,7 +41,7 @@
      units="px"
      inkscape:snap-page="true"
      inkscape:window-width="1920"
-     inkscape:window-height="991"
+     inkscape:window-height="1015"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -62,7 +62,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#292a2d;fill-opacity:1;fill-rule:evenodd;stroke-width:0.350835"
+       style="fill:#22222d;fill-opacity:1;fill-rule:evenodd;stroke-width:0.350835"
        id="rect10"
        width="135.46666"
        height="135.46666"
@@ -71,10 +71,10 @@
     <text
        xml:space="preserve"
        id="text843"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect845);fill:#ffa000;fill-opacity:1;stroke:none;"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect845);fill:#ccffff;fill-opacity:1;stroke:none;"
        transform="matrix(1.7955867,0,0,1.8698023,-30.766457,-38.506472)"><tspan
          x="25.291016"
          y="75.309937"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.8px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Bold Italic';fill:#ffa000;fill-opacity:1">dn</tspan></tspan></text>
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.8px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Bold Italic';fill:#ccffff;fill-opacity:1">dn</tspan></tspan></text>
   </g>
 </svg>
